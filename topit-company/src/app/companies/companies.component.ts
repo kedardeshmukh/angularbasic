@@ -1,7 +1,6 @@
 import { Component, OnInit, NgModule } from '@angular/core';
-import { Company } from '../company';
-
-
+import { aCompany } from '../company';
+import { COMPANIES } from '../mock-companies';
 @Component({
   selector: 'app-companies',
   templateUrl: './companies.component.html',
@@ -10,11 +9,16 @@ import { Company } from '../company';
 
 export class CompaniesComponent implements OnInit {
   //company = 'Google';
-  company : Company = {
+  companysingle : aCompany = {
    id:1,
    name:'Google' 
   };
 
+  //companies = COMPANIES;
+  selectedcompanies = COMPANIES;
+  onSelect(company: selectedcompanies): void {
+    this.selectedcompanies = company;
+  }
 
   constructor() { }
 

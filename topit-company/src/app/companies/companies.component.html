@@ -1,9 +1,16 @@
-<p><b>Details Information</b></p>
-<p>{{company.name | uppercase}} is {{company.id}} largest Company in India</p>
-<p>Company ID is : {{company.id}}</p>
-<p>Company Name is : {{company.name | uppercase}}</p>
+
+<h3>{{companysingle.name | uppercase}} Details</h3>
+<div><span>id: </span>{{companysingle.id}}</div>
 <div>
-    <label>name:
-      <input [(ngModel)]="company.name" placeholder="name"/>
-    </label>
-  </div>
+  <label>name:
+    <input [(ngModel)]="companysingle.name" placeholder="name"/>
+  </label>
+</div>
+
+
+<h2>Top IT Companies</h2>
+<ul class="company">
+  <li *ngFor="let company of selectedcompanies">
+        <span class="badge">{{company.id}}</span> {{company.name}}
+  </li>
+</ul>

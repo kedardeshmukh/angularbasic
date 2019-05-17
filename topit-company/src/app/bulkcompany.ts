@@ -1,4 +1,4 @@
-export class aCompany{
+export class Companybulkdata{
     id : number;
     name : string;
 }
