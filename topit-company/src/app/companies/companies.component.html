@@ -5,12 +5,26 @@
   <label>name:
     <input [(ngModel)]="companysingle.name" placeholder="name"/>
   </label>
-</div>
+</div>                                                                                      
 
 
 <h2>Top IT Companies</h2>
 <ul class="company">
-  <li *ngFor="let company of selectedcompanies">
-        <span class="badge">{{company.id}}</span> {{company.name}}
-  </li>
+  
+<li *ngFor="let company of selectedcompanies"
+[class.selected]="company === companysingle"
+(click)="onSelect(company)">
+<span class="badge">{{company.id}}</span> {{company.name}}
+</li>
 </ul>
+
+<div *ngIf="selectedcompany">
+  <h2>{{selectedcompany.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedcompany.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedcompany.name" placeholder="name"/>
+    </label>
+  </div>
+ 
+</div>   

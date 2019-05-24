@@ -16,9 +16,12 @@ export class CompaniesComponent implements OnInit {
 
   //companies = COMPANIES;
   selectedcompanies = COMPANIES;
-  onSelect(company: selectedcompanies): void {
-    this.selectedcompanies = company;
+  
+  selectedcompany: aCompany;
+  onSelect(scompany: aCompany): void {
+    this.selectedcompany = scompany;
   }
+
 
   constructor() { }
 

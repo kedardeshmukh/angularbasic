@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CompaniesComponent } from './companies/companies.component';
 
-import { FormsModule } from '@angular/forms'; 
+
+import { FormsModule } from '@angular/forms';
+
+import { CompaniesComponent } from './companies/companies.component';
+import { CompanyDetailComponent } from './company-detail/company-detail.component'; 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    CompanyDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,97 @@
+Pre-Requisites
+    Introduction to TypeScript
+    Variables (let keyword)
+    Functions
+    Named Functions
+    Anonymous Functions
+    Classes in JavaScript
+    JSON
+
+Angular 6 Training Course Content
+GitHub
+
+    Real-time environmental setup with GitHub
+
+Environmental Setup
+
+    Node
+    Git
+    Yarn
+    Angular6
+
+Introduction to Angular6
+
+    What is Angular?
+    Advantages Of Angular
+    Disadvantages Of Angular
+    Key Features of Angular
+    Comparison Between Angular6 with Other Frameworks.
+
+Components
+
+    Directory Structure of First Application
+    Creating the First Component
+    Modules Introduction
+    Registering the First Component in Configuration File
+    Decorators
+
+Component Life Cycle
+
+    Life Cycle Hooks
+
+Services
+
+    Predefined Services
+    Custom Services
+    Java Integration
+    dotnet Integration
+    php Integration
+    Series & Parallel Service Calls
+    Node Introduction
+    Static Data Interaction
+    MySQL CRUD Opeartions
+    MongoDB CRUD Operations
+    JSON Server
+
+Single Page Applications
+
+    Basic Routing
+    Nested Routing
+    Passing Parameters
+    Route Guards
+    Lazy Loading
+
+Directives
+
+    Predefined Directives
+    Custom directives
+
+Forms
+
+    Template Driven Forms(TDF)
+    Model Driven Forms(MDF)
+
+Pipes
+
+    Predefined Pipes
+    Custom Pipes
+
+Communication Between Component
+
+    @Input()
+    @Output()
+    @ViewChild()
+    @ViewChildren()
+
+Unit Test Cases
+
+    Karma with Jasmine
+
+Interview Q&A
+
+    Discussing the Previous Interview Questions
+
+POC
+
+    Implementing the Mini Project
+
